@@ -1,4 +1,4 @@
-function bark (name, weight) {
+function barking (name, weight) {
     if (weight > 20) 
         {console.log(name + ' says WOOF WOOF')
 } 
