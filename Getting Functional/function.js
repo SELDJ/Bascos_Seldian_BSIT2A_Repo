@@ -1,29 +1,28 @@
 function barking (name, weight) {
     if (weight > 20) 
-        {console.log(name + ' says WOOF WOOF')
+        {console.log(name + ' says WOOF WOOF');
 } 
 else {
-    console.log (name + ' says woof woof')
+    console.log (name + ' says woof woof');
 }
 
 }
 
-barking('pykke', 25)
-barking('Kerker', 34)
-barking('Jenny', 10)
-barking('Collar', 30)
-barking('Hercc', 41)
+barking('pykke', 25);
+barking('Kerker', 34);
+barking('Jenny', 10);
+barking('Collar', 30);
+barking('Hercc', 41);
 
+// var dogName = 'Jenny';
+// var dogWeight = 10;
 
-var dogName = 'Jenny';
-var dogWeight = 10;
-
-    if (dogWeight > 20) {
-        console.log(dogName + ' says, WOOF WOOF')
-    }
-    else {
-        console.log(dogName + ' says, woof woof')
-    }
+//     if (dogWeight > 20) {
+//         console.log(dogName + ' says, WOOF WOOF')
+//     }
+//     else {
+//         console.log(dogName + ' says, woof woof')
+//     }
 
 
 // var dogName = 'Jenny';
@@ -71,3 +70,6 @@ var dogWeight = 10;
 // var dogName = 'Jenny';
 // var dogWeight = 10;
 // bark(dogWeight, dogName);
+
+
+
