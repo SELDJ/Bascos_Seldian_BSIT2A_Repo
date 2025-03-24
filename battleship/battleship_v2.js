@@ -14,14 +14,14 @@ var isSunk = false;
 
 // Game Logic
 while (isSunk == false) {
-    guess = prompt("Ready, Aim, Shoot! (Enter Number 0 - 6 🥳🫡)")
+    guess = prompt("Ready, Aim, Shoot! (Enter Number 0 - 6 🥳🫡)");
 
         if (guess < 0 || guess > 6 ) {
-            alert("Please Enter Valid Number!")
+            alert("Please Enter Valid Number!");
         }
 
         if (guess == null) {
-            alert('Thank you for Playing! 💕')
+            alert('Thank you for Playing! 💕');
             break
         }
 
@@ -35,7 +35,7 @@ while (isSunk == false) {
             if (hits == 3) {
                     
                     isSunk = true;
-                    alert("You sank The Battleship! 🙄😒")
+                    alert("You sank The Battleship! 🙄😒");
 
                 }
             } else {
@@ -46,7 +46,7 @@ while (isSunk == false) {
 
 }
 
-var accuracy = (guesses > 0 ? hits/guesses * 100 : 0) .toFixed(2)
+var accuracy = (guesses > 0 ? hits/guesses * 100 : 0) .toFixed(2);
 var stats = "You sank my battleship at: " + guesses + " guesses" + " and you accuracy is: " + accuracy + '%';
 
 alert(stats);
